@@ -1,47 +1,32 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2299.5">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Pizza Order&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="style.css"&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;form id="pizza-form"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="radio" name="size" value="small"&gt; Small</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="radio" name="size" value="medium"&gt; Medium</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="radio" name="size" value="large"&gt; Large</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;select name="toppings" id="toppings"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;option value="0"&gt;No Toppings&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;option value="1"&gt;1 Topping&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;option value="2"&gt;2 Toppings&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/select&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;button type="submit"&gt;Submit&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/form&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="price"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="script.js"&gt;&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+    <form id="pizza-form">
+        <label>
+            <input type="radio" name="size" value="small"> Small
+        </label>
+        <label>
+            <input type="radio" name="size" value="medium"> Medium
+        </label>
+        <label>
+            <input type="radio" name="size" value="large"> Large
+        </label>
+        <br>
+        <select name="toppings" id="toppings">
+            <option value="0">No Toppings</option>
+            <option value="1">1 Topping</option>
+            <option value="2">2 Toppings</option>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="price"></div>
+    <script src="script.js"></script>
 </body>
 </html>
